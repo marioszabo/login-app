@@ -10,5 +10,13 @@
     "pg": "^8.11.3", 
     "body-parser": "^1.20.2"
   }
+
+"scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js",
+  "test": "echo \"No tests yet\" && exit 0",
+  "build": "echo \"Nothing to build for backend\""
+}
+
 }
 
