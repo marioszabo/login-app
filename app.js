@@ -13,7 +13,7 @@ const pool = new Pool({
   user: "postgres",
   host: "mypg", // <-- the Docker container name of Postgres
   database: "mydb",
-  password: "password",
+  password: "1password",
   port: 5432,
 });
 
@@ -51,5 +51,7 @@ app.post("/login", async (req, res) => {
 app.listen(port, () => {
   console.log(`App running at http://localhost:${port}`);
 });
+
+
 
 
